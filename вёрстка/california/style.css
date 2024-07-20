@@ -10,12 +10,34 @@ body{
     width: 1440px;
     height: 658px;
 }
-.nav-container{
+nav{
     margin: 0;
     width: 1440px;
     height: 80px;
     display: flex;
     
+}
+nav ul {
+    font-family: "Inter", sans-serif;
+    padding: 37px 254px 0px 254px;
+    width: 510px;
+    display: flex;
+    
+}
+
+nav li {
+    margin: 32px 10px 0px 100px;
+    list-style: none;
+}
+
+nav a {
+    margin: 0;
+    font-weight: 430;
+    font-size: 14px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
 }
 .head-logo{
     width: 170px;
@@ -24,29 +46,15 @@ body{
 .head-logo-container{
     padding: 32px 0px 0px 0px;
 }
-.nav-items-container{
-    font-family: "Inter", sans-serif;
-    padding: 37px 254px 0px 254px;
-    width: 510px;
-    display: flex;
-    gap: 33px;
-    
-}
-.nav-item{
-    margin: 0;
-    font-weight: 430;
-    font-size: 14px;
-    line-height: 120%;
-    text-transform: uppercase;
-    color: #000;
-}
+
+
 .material-symbols-outlined{
     margin: 32px 13px 0px 0px;
 }
 .search-icon{
     width: 24px;
     height: 24px;
-
+    margin: 32px 13px 0px 300px;
 }
 .shopping-cart-icon{
     width: 40px;
