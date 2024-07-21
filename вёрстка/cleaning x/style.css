@@ -6,6 +6,7 @@ body{
     width: 1040px;
     height: 10431px;
     background: #fff;
+    margin: 0 500px;
 }
 
 nav {
@@ -206,22 +207,24 @@ nav a {
 }
 .non-active-btn{
     box-shadow: 0 4px 10px 0 rgba(20, 20, 43, 0.04);
-        background: #fff;
-        border: 1px solid #eff0f6;
-            border-radius: 14px;
-            width: 217px;
-                height: 72px;
-            font-weight: 400;
-                font-size: 18px;
-                line-height: 111%;
-                text-align: center;
-                color: #211f54;
+    background: #fff;
+    border: 1px solid #eff0f6;
+    border-radius: 14px;
+    width: 217px;
+    height: 72px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 111%;
+    text-align: center;
+    color: #211f54;
+    font-family: "Roboto", sans-serif;
 }
 
 .line{
     width: 1220px;
     height: 1px;
     background: #dcddeb;
+    margin: 240px 110px;
 }
 
 .no-comparison{
@@ -229,6 +232,7 @@ nav a {
     height: 904px;
     margin: 240px 86px;
 }
+
 .no-comparison-text{
     width: 664px;
     height: 190px;
@@ -251,6 +255,153 @@ nav a {
     color: #6e7191;
 }
 
+.no-comparison-stats{
+    width: 750px;
+    height: 72px;
+    display: flex;
+    margin: 32px 259px 40px 259px;
+}
+.no-comparison-video-img{
+    width: 1012px;
+    height: 570px;
+    margin: 40px 128px 0px 128px;
+}
+
+.no-comparison-stats-con{
+    height: 72px;
+    display: flex;
+}
+.no-comparison-stats-con div{
+    height: 58px;
+    margin: 7px 0px 7px 16px;
+}
+.no-comparison-stats-con h5{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 112%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #6e7191;
+}
+.no-comparison-stats-con h3 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 129%;
+    color: #211f54
+}
+
+.no-comparison-stats-con-1 {
+    width: 179px;
+    margin: 0px 100px 0px 0px;
+}
+.no-comparison-stats-con-1 div{
+    width: 91px;
+        height: 58px;
+}
+.no-comparison-stats-con-2 {
+    width: 198px;
+    margin: 0px 85px 0px 0px;
+}
+.no-comparison-stats-con-2 div{
+    width: 110px;
+        height: 58px;
+}
+.no-comparison-stats-con-3 {
+    width: 191px;
+}
+.no-comparison-stats-con-3 div{
+    width: 103px;
+        height: 58px;
+}
+
+.take-a-look-at-our-prof-services{
+    width: 1268px;
+    height: 672px;
+    margin: 0px 86px;
+}
+.take-a-look-at-our-prof-services-head{
+    width: 1220px;
+    height: 130px;
+    display: flex;
+}
+.take-a-look-at-our-prof-services-head h2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 121%;
+    color: #211f54;
+    margin: 0px 531px 14px 0px;
+    width: 475px;
+    height: 116px;
+}
+.take-a-look-at-our-prof-services-head button{
+    width: 214px;
+    height: 73px;
+    border: 1px solid #eff0f6;
+    border-radius: 14px;
+    width: 214px;
+    height: 73px;
+    box-shadow: 0 4px 10px 0 rgba(20, 20, 43, 0.04);
+    background: #fff;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 111%;
+    text-align: center;
+    color: #211f54;
+    margin: 29px 0px;
+}
+
+.take-a-look-at-our-prof-services-facts{
+    display: flex;
+    margin: 48px 24px 0 24px;
+    width: 1220px;
+    height: 494px;
+}
+.take-a-look-at-our-prof-services-facts div{
+    width: 388px;
+    height: 494px;
+    margin: 0 28px 0 0;
+    border: 1px solid #eff0f6;
+    border-radius: 16px;
+    width: 388px;
+    height: 494px;
+    box-shadow: 0 2px 6px 0 rgba(20, 20, 43, 0.04);
+    background: #fff;
+}
+.take-a-look-at-our-prof-services-facts-house-img{
+    width: 220px;
+    height: 190px;
+    margin: 83px 84px 0px 84px;
+}
+.take-a-look-at-our-prof-services-facts-office-img {
+    width: 220px;
+    height: 224px;
+    margin: 49px 84px 0px 84px;
+}
+.take-a-look-at-our-prof-services-facts-industrial-img {
+    width: 250px;
+    height: 200px;
+    margin: 73px 65px 0px 65px;
+}
+.take-a-look-at-our-prof-services-facts h5{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 142%;
+    text-align: center;
+    color: #211f54;
+    
+}
+
+
+.take-a-look-at-our-prof-services-facts p {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 143%;
+    text-align: center;
+    color: #6e7191;
+    width: 312px;
+    height: 121px;
+    margin: 13px 38px 29px 38px;
+}
 
 
 
